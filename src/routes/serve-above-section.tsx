@@ -1,9 +1,7 @@
 /* eslint-disable qwik/jsx-key */
 import { component$ } from "@builder.io/qwik";
-import {
-  CompetenceCard,
-  CompetenceCardProps,
-} from "~/components/standalone/competence-card/competence-card";
+import type { CompetenceCardProps } from "~/components/standalone/competence-card/competence-card";
+import { CompetenceCard } from "~/components/standalone/competence-card/competence-card";
 import { css } from "~/styled-system/css";
 
 export const ServeAboveSection = component$(() => {
