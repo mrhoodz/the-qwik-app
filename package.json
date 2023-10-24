@@ -52,5 +52,8 @@
     "vercel": "^29.1.1",
     "vite": "^4.4.11",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "fuse.js": "^6.6.2"
   }
 }
